@@ -1,0 +1,169 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+header {
+  padding-left: 49px;
+  background-color: #123659;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  height: 88px;
+}
+header h4 {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0px;
+}
+main {
+  padding: 26px 35px 50px 35px;
+  background-color: #212224;
+}
+.categorySection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 28px;
+  padding-left: 10px;
+}
+.selectGroup {
+  display: flex;
+  gap: 28px;
+}
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.selectContainer label {
+  color: #4e8dcc;
+}
+.selectContainer select {
+  min-width: 180px;
+  height: 30px;
+  color: transparent;
+  background: url("./img/Polígono.svg") no-repeat #ffffff;
+  background-position: 158px center;
+  border-radius: 4px;
+}
+.selectContainer select option {
+  color: #707070;
+}
+.dateGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+  padding-right: 120px;
+}
+.dateContainer {
+  display: flex;
+  gap: 10px;
+}
+.dateLabel {
+  font-size: 15px;
+  line-height: 30px;
+  padding: 0px 2px 0px 8px;
+  color: #4e8dcc;
+  background-color: white;
+  border-radius: 4px;
+  height: 30px;
+}
+.dateLine {
+  display: flex;
+  align-items: center;
+}
+.white-circle {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+.white-line {
+  background-color: #707070;
+  height: 1px;
+  width: 130px;
+}
+.section-title {
+  font-weight: 700;
+}
+.progressCard {
+  padding: 10px 15px 24px 15px;
+  background-color: white;
+  border-radius: 4px;
+  width: 170px;
+}
+.card-title {
+  font-size: 11px;
+  color: #4e8dcc;
+}
+.money {
+  font-size: 20px;
+  line-height: 24px;
+  color: #14bedf;
+}
+.whatPlan {
+  font-size: 9px;
+  line-height: 11px;
+  color: #8195a8;
+}
+.progressBarLabel {
+  color: #8195a8;
+  font-size: 8px;
+  line-height: 9.4px;
+}
+.progressBar {
+  background-color: #14bedf;
+  height: 12px;
+  min-width: 94px;
+  width: -webkit-fill-available;
+  border-radius: 6px;
+  margin-right: 5px;
+}
+.progressBar.blue {
+  background-color: #14bedf;
+}
+.progressBar.green {
+  background-color: #14df9a;
+}
+.whatPercent {
+  font-size: 13px;
+  font-weight: 700;
+  color: #14bedf;
+}
+.custom-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.customProgress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.progressCardGroup {
+  display: flex;
+  gap: 10px;
+}
+.progressCardSection {
+  margin-bottom: 15px;
+}
+.chartLabel {
+  color: #4e8dcc;
+  margin-bottom: 15px;
+}
+.chartWrapper {
+  background-color: white;
+  border-radius: 4px;
+  height: 350px;
+  margin: 5px !important;
+  padding: 0px;
+}
+.chartContainer {
+  display: flex;
+}

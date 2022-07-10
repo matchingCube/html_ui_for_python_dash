@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Template (Community)</title>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <img src="./img/ds4a-logo_2x.svg" alt="Logo" width="62px" />
+      <h4>PROCUREMENT CONTRACTS IN COLOMBIA</h4>
+    </header>
+    <main>
+      <div class="categorySection">
+        <div class="selectGroup">
+          <div class="selectContainer">
+            <label for="searchByDep">Search by Department</label>
+            <select name="searchByDep" id="searchByDep">
+              <option value="1"></option>
+              <option value="2"></option>
+              <option value="3"></option>
+            </select>
+          </div>
+          <div class="selectContainer">
+            <label for="typeOfContract">Type of Contract</label>
+            <select name="typeOfContract" id="typeOfContract">
+              <option value="1"></option>
+              <option value="2"></option>
+              <option value="3"></option>
+            </select>
+          </div>
+          <div class="selectContainer">
+            <label for="contractAmount">Contract Amount</label>
+            <select name="contractAmount" id="contractAmount">
+              <option value="1"></option>
+              <option value="2"></option>
+              <option value="3"></option>
+            </select>
+          </div>
+          <div class="selectContainer">
+            <label for="typeOfEntity">Type of Entity</label>
+            <select name="typeOfEntity" id="typeOfEntity">
+              <option value="1"></option>
+              <option value="2"></option>
+              <option value="3"></option>
+            </select>
+          </div>
+        </div>
+        <div class="dateGroup">
+          <div class="dateContainer">
+            <div class="dateLabel">05/12/2019</div>
+            <div class="dateLabel">30/12/2019</div>
+          </div>
+          <div class="dateLine">
+            <div class="white-circle"></div>
+            <div class="white-line"></div>
+            <div class="white-circle"></div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <h6 class="section-title">MOTIVATION</h6>
+        <p>
+          Colombia compra eficiente is the ruling body for public procurement
+          contracts in Colombia. Our aim in this project is to build a
+          classification model that would allow us to detect atypical data in
+          public contracts. We gathered our data from the SECOP I and II public
+          contract databases.
+        </p>
+      </div>
+      <div class="section">
+        <h6 class="section-title">IMPACT</h6>
+        <p>
+          It is our hope that this project will help make public resource
+          allocation more efficient, and that it would increase oversight of how
+          Colombians tax money is being used.
+        </p>
+      </div>
+      <div class="section">
+        <h6 class="section-title">DATA SUMMARY</h6>
+        <div class="progressCardSection">
+          <div class="progressCardGroup">
+            <div class="progressCard">
+              <div class="card-title">Total Contratos</div>
+              <div class="custom-card-body">
+                <div class="money">$ 2500000M</div>
+                <div class="whatPlan">CPM Plan: $3.00</div>
+              </div>
+              <div class="progressBarSection">
+                <div class="progressBarLabel">%Cumplimiento</div>
+                <div class="customProgress">
+                  <div class="progressBar blue"></div>
+                  <div class="whatPercent">162%</div>
+                </div>
+              </div>
+            </div>
+            <div class="progressCard">
+              <div class="card-title">Contrato Promedio</div>
+              <div class="custom-card-body">
+                <div class="money">$ 45000000</div>
+                <div class="whatPlan">CPUU Plan: $0.30</div>
+              </div>
+              <div class="progressBarSection">
+                <div class="progressBarLabel">%Cumplimiento</div>
+                <div class="customProgress">
+                  <div class="progressBar green"></div>
+                  <div class="whatPercent">100%</div>
+                </div>
+              </div>
+            </div>
+            <div class="progressCard">
+              <div class="card-title">Contratos regiones</div>
+              <div class="custom-card-body">
+                <div class="money">$ 5000000M</div>
+                <div class="whatPlan">CPC Plan: $1.00</div>
+              </div>
+              <div class="progressBarSection">
+                <div class="progressBarLabel">%Cumplimiento</div>
+                <div class="customProgress">
+                  <div class="progressBar blue"></div>
+                  <div class="whatPercent">162%</div>
+                </div>
+              </div>
+            </div>
+            <div class="progressCard">
+              <div class="card-title">Contratos Capital</div>
+              <div class="custom-card-body">
+                <div class="money">$ 14000000M</div>
+                <div class="whatPlan">CPL Plan: $1.30</div>
+              </div>
+              <div class="progressBarSection">
+                <div class="progressBarLabel">%Cumplimiento</div>
+                <div class="customProgress">
+                  <div class="progressBar green"></div>
+                  <div class="whatPercent">100%</div>
+                </div>
+              </div>
+            </div>
+            <div class="progressCard">
+              <div class="card-title">Contratos Aguas</div>
+              <div class="custom-card-body">
+                <div class="money">15%</div>
+                <div class="whatPlan">CR% Plan: 10%</div>
+              </div>
+              <div class="progressBarSection">
+                <div class="progressBarLabel">%Cumplimiento</div>
+                <div class="customProgress">
+                  <div class="progressBar blue"></div>
+                  <div class="whatPercent">162%</div>
+                </div>
+              </div>
+            </div>
+            <div class="progressCard">
+              <div class="card-title">Contratos Vias</div>
+              <div class="custom-card-body">
+                <div class="money">27%</div>
+                <div class="whatPlan">CPV Plan: $1.00</div>
+              </div>
+              <div class="progressBarSection">
+                <div class="progressBarLabel">%Cumplimiento</div>
+                <div class="customProgress">
+                  <div class="progressBar blue"></div>
+                  <div class="whatPercent">162%</div>
+                </div>
+              </div>
+            </div>
+            <div class="progressCard">
+              <div class="card-title">Contratos SECOP I</div>
+              <div class="custom-card-body">
+                <div class="money">52%</div>
+                <div class="whatPlan">CPT Plan: $1.30</div>
+              </div>
+              <div class="progressBarSection">
+                <div class="progressBarLabel">%Cumplimiento</div>
+                <div class="customProgress">
+                  <div class="progressBar green"></div>
+                  <div class="whatPercent">100%</div>
+                </div>
+              </div>
+            </div>
+            <div class="progressCard">
+              <div class="card-title">Contratos SECOP II</div>
+              <div class="custom-card-body">
+                <div class="money">43%</div>
+                <div class="whatPlan">CPT Plan: $1.30</div>
+              </div>
+              <div class="progressBarSection">
+                <div class="progressBarLabel">%Cumplimiento</div>
+                <div class="customProgress">
+                  <div class="progressBar green"></div>
+                  <div class="whatPercent">100%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="chartGroup">
+          <div class="chartLabel">Contracts by department</div>
+          <div class="chartContainer">
+            <div class="chartWrapper" style="width: 25%"></div>
+            <div class="chartWrapper" style="width: 50%"></div>
+            <div class="chartWrapper" style="width: 25%"></div>
+          </div>
+          <div class="chartContainer">
+            <div class="chartWrapper" style="width: 25%"></div>
+            <div class="chartWrapper" style="width: 50%"></div>
+            <div class="chartWrapper" style="width: 25%"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
